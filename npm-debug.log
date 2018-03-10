@@ -1,0 +1,645 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'now' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'now', null ]
+6 verbose cache add spec now
+7 silly cache add parsed spec { raw: 'now',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'now',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed now@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'now', range: '*', hasData: false }
+12 silly mapToRegistry name now
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/now
+16 verbose addNameRange registry:https://registry.npmjs.org/now not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/now
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 6:38:02 PM
+20 verbose request id 3ebfa203791b020f
+21 http request GET https://registry.npmjs.org/now
+22 http 200 https://registry.npmjs.org/now
+23 silly get cb [ 200,
+23 silly get   { 'content-type': 'application/json; charset=UTF-8',
+23 silly get     server: 'UploadServer',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'last-modified': 'Thu, 8 Mar 2018 22:22:47 GMT',
+23 silly get     etag: '"5aa1b7b7-152787"',
+23 silly get     'x-npm-region': 'Asia',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'content-length': '70919',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Sat, 10 Mar 2018 10:38:03 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '14142',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-hkg17923-HKG',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1520678284.732751,VS0,VE1',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose get saving now to C:\Users\Kenny\AppData\Roaming\npm-cache\registry.npmjs.org\now\.cache.json
+25 silly addNameRange number 2 { name: 'now', range: '*', hasData: true }
+26 silly addNameRange versions [ 'now',
+26 silly addNameRange   [ '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.2.4',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.2',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1',
+26 silly addNameRange     '0.7.2',
+26 silly addNameRange     '0.7.3',
+26 silly addNameRange     '0.7.4',
+26 silly addNameRange     '0.7.5',
+26 silly addNameRange     '0.7.6',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.9.3',
+26 silly addNameRange     '0.9.4',
+26 silly addNameRange     '0.9.5',
+26 silly addNameRange     '0.9.6',
+26 silly addNameRange     '0.9.7',
+26 silly addNameRange     '0.9.8',
+26 silly addNameRange     '0.9.9',
+26 silly addNameRange     '0.9.10',
+26 silly addNameRange     '0.9.11',
+26 silly addNameRange     '0.9.12',
+26 silly addNameRange     '0.9.13',
+26 silly addNameRange     '0.9.14',
+26 silly addNameRange     '0.9.15',
+26 silly addNameRange     '0.9.16',
+26 silly addNameRange     '0.9.17',
+26 silly addNameRange     '0.9.18',
+26 silly addNameRange     '0.9.19',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '0.10.1',
+26 silly addNameRange     '0.10.2',
+26 silly addNameRange     '0.11.0',
+26 silly addNameRange     '0.12.0',
+26 silly addNameRange     '0.13.0',
+26 silly addNameRange     '0.13.1',
+26 silly addNameRange     '0.13.2',
+26 silly addNameRange     '0.13.3',
+26 silly addNameRange     '0.14.0',
+26 silly addNameRange     '0.14.1',
+26 silly addNameRange     '0.14.2',
+26 silly addNameRange     '0.14.3',
+26 silly addNameRange     '0.14.4',
+26 silly addNameRange     '0.15.0',
+26 silly addNameRange     '0.16.0',
+26 silly addNameRange     '0.17.0',
+26 silly addNameRange     '0.17.1',
+26 silly addNameRange     '0.18.0',
+26 silly addNameRange     '0.18.1',
+26 silly addNameRange     '0.19.0',
+26 silly addNameRange     '0.20.0',
+26 silly addNameRange     '0.21.0',
+26 silly addNameRange     '0.21.1',
+26 silly addNameRange     '0.22.0',
+26 silly addNameRange     '0.23.0',
+26 silly addNameRange     '0.23.1',
+26 silly addNameRange     '0.24.0',
+26 silly addNameRange     '0.24.1',
+26 silly addNameRange     '0.25.0',
+26 silly addNameRange     '0.25.1',
+26 silly addNameRange     '0.26.0',
+26 silly addNameRange     '0.27.0',
+26 silly addNameRange     '0.28.0',
+26 silly addNameRange     '0.28.1',
+26 silly addNameRange     '0.29.0',
+26 silly addNameRange     '0.29.1',
+26 silly addNameRange     '0.30.0',
+26 silly addNameRange     '0.31.0',
+26 silly addNameRange     '0.32.0',
+26 silly addNameRange     '0.33.0',
+26 silly addNameRange     '0.33.1',
+26 silly addNameRange     '0.33.2',
+26 silly addNameRange     '0.34.0',
+26 silly addNameRange     '0.34.1',
+26 silly addNameRange     '0.35.0',
+26 silly addNameRange     '0.36.0',
+26 silly addNameRange     '0.36.1',
+26 silly addNameRange     '0.36.2',
+26 silly addNameRange     '0.37.0',
+26 silly addNameRange     '0.37.1',
+26 silly addNameRange     '0.38.0',
+26 silly addNameRange     '0.39.0',
+26 silly addNameRange     '0.39.1',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.5',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.1.0',
+26 silly addNameRange     '3.1.1',
+26 silly addNameRange     '3.1.2',
+26 silly addNameRange     '4.0.0',
+26 silly addNameRange     '4.0.1',
+26 silly addNameRange     '4.1.0',
+26 silly addNameRange     '4.1.1',
+26 silly addNameRange     '4.1.2',
+26 silly addNameRange     '4.2.0',
+26 silly addNameRange     '4.2.1',
+26 silly addNameRange     '4.2.2',
+26 silly addNameRange     '4.3.0',
+26 silly addNameRange     '4.4.0',
+26 silly addNameRange     '4.4.1',
+26 silly addNameRange     '4.4.2',
+26 silly addNameRange     '4.5.0',
+26 silly addNameRange     '4.5.1',
+26 silly addNameRange     '4.5.2',
+26 silly addNameRange     '4.5.3',
+26 silly addNameRange     '4.5.4',
+26 silly addNameRange     '4.5.5',
+26 silly addNameRange     '4.5.6',
+26 silly addNameRange     '4.5.7',
+26 silly addNameRange     '4.5.8',
+26 silly addNameRange     '4.6.0',
+26 silly addNameRange     '4.6.1',
+26 silly addNameRange     '4.7.0',
+26 silly addNameRange     '4.7.1',
+26 silly addNameRange     '4.8.0',
+26 silly addNameRange     '4.8.1',
+26 silly addNameRange     '4.9.0',
+26 silly addNameRange     '4.10.0',
+26 silly addNameRange     '4.10.1',
+26 silly addNameRange     '4.10.2',
+26 silly addNameRange     '4.10.3',
+26 silly addNameRange     '4.11.0',
+26 silly addNameRange     '4.11.1',
+26 silly addNameRange     '4.11.2',
+26 silly addNameRange     '5.0.0',
+26 silly addNameRange     '5.1.0',
+26 silly addNameRange     '5.1.1',
+26 silly addNameRange     '5.1.2',
+26 silly addNameRange     '5.2.0',
+26 silly addNameRange     '5.2.1',
+26 silly addNameRange     '5.2.2',
+26 silly addNameRange     '5.2.3',
+26 silly addNameRange     '5.3.0',
+26 silly addNameRange     '5.3.1',
+26 silly addNameRange     '5.3.2',
+26 silly addNameRange     '5.3.3',
+26 silly addNameRange     '6.0.0',
+26 silly addNameRange     '6.0.1',
+26 silly addNameRange     '6.0.2',
+26 silly addNameRange     '6.0.3',
+26 silly addNameRange     '6.0.4',
+26 silly addNameRange     '6.0.5',
+26 silly addNameRange     '6.1.0',
+26 silly addNameRange     '6.1.1',
+26 silly addNameRange     '6.2.0',
+26 silly addNameRange     '6.2.1',
+26 silly addNameRange     '6.2.2',
+26 silly addNameRange     '6.2.3',
+26 silly addNameRange     '6.2.4',
+26 silly addNameRange     '6.2.5',
+26 silly addNameRange     '6.2.6',
+26 silly addNameRange     '6.3.0',
+26 silly addNameRange     '6.3.1',
+26 silly addNameRange     '6.3.2',
+26 silly addNameRange     '6.4.0',
+26 silly addNameRange     '6.4.1',
+26 silly addNameRange     '7.0.0',
+26 silly addNameRange     '7.0.1',
+26 silly addNameRange     '7.0.2',
+26 silly addNameRange     '7.1.0',
+26 silly addNameRange     '7.1.1',
+26 silly addNameRange     '7.2.0',
+26 silly addNameRange     '7.2.1',
+26 silly addNameRange     '7.2.2',
+26 silly addNameRange     '7.2.3',
+26 silly addNameRange     '7.2.4',
+26 silly addNameRange     '8.0.0-beta.1',
+26 silly addNameRange     '7.3.0',
+26 silly addNameRange     '8.0.0-beta.2',
+26 silly addNameRange     '8.0.0-beta.3',
+26 silly addNameRange     '8.0.0-beta.4',
+26 silly addNameRange     '8.0.0-beta.5',
+26 silly addNameRange     '8.0.0-beta.6',
+26 silly addNameRange     '8.0.0-beta.7',
+26 silly addNameRange     '8.0.0-beta.8',
+26 silly addNameRange     '7.3.1',
+26 silly addNameRange     '7.4.0',
+26 silly addNameRange     '8.0.0-beta.9',
+26 silly addNameRange     '8.0.0-beta.10',
+26 silly addNameRange     '8.0.0-beta.11',
+26 silly addNameRange     '8.0.0',
+26 silly addNameRange     '8.0.1',
+26 silly addNameRange     '8.0.2',
+26 silly addNameRange     '8.1.0',
+26 silly addNameRange     '8.2.0',
+26 silly addNameRange     '8.2.1',
+26 silly addNameRange     '8.2.2',
+26 silly addNameRange     '8.2.3',
+26 silly addNameRange     '8.2.4',
+26 silly addNameRange     '8.2.5',
+26 silly addNameRange     '8.3.0',
+26 silly addNameRange     '8.3.1',
+26 silly addNameRange     '8.3.2',
+26 silly addNameRange     '8.3.3',
+26 silly addNameRange     '8.3.4',
+26 silly addNameRange     '8.3.5',
+26 silly addNameRange     '8.3.6',
+26 silly addNameRange     '8.3.7',
+26 silly addNameRange     '8.3.8',
+26 silly addNameRange     '9.0.0-canary.1',
+26 silly addNameRange     '8.3.9',
+26 silly addNameRange     '8.3.10',
+26 silly addNameRange     '9.0.0-canary.2',
+26 silly addNameRange     '9.0.0-canary.3',
+26 silly addNameRange     '9.0.0-canary.4',
+26 silly addNameRange     '9.0.0-canary.5',
+26 silly addNameRange     '8.3.11',
+26 silly addNameRange     '9.0.0-canary.6',
+26 silly addNameRange     '9.0.0-canary.7',
+26 silly addNameRange     '8.3.12',
+26 silly addNameRange     '8.4.0',
+26 silly addNameRange     '9.0.0-canary.8',
+26 silly addNameRange     '9.0.0-canary.9',
+26 silly addNameRange     '9.0.0-canary.10',
+26 silly addNameRange     '9.0.0-canary.11',
+26 silly addNameRange     '9.0.0-canary.12',
+26 silly addNameRange     '9.0.0-canary.13',
+26 silly addNameRange     '8.5.0',
+26 silly addNameRange     '8.5.1',
+26 silly addNameRange     '9.0.0-canary.14',
+26 silly addNameRange     '8.5.2',
+26 silly addNameRange     '9.0.0-canary.15',
+26 silly addNameRange     '9.0.0-canary.16',
+26 silly addNameRange     '9.0.0',
+26 silly addNameRange     '9.0.0-canary.17',
+26 silly addNameRange     '8.5.3',
+26 silly addNameRange     '8.5.4',
+26 silly addNameRange     '9.0.0-canary.18',
+26 silly addNameRange     '9.0.0-canary.19',
+26 silly addNameRange     '9.0.0-canary.20',
+26 silly addNameRange     '9.0.0-canary.21',
+26 silly addNameRange     '9.0.0-canary.22',
+26 silly addNameRange     '9.0.0-canary.23',
+26 silly addNameRange     '9.0.0-canary.24',
+26 silly addNameRange     '9.0.0-canary.25',
+26 silly addNameRange     '9.0.1',
+26 silly addNameRange     '10.0.0-canary.1',
+26 silly addNameRange     '10.0.0-canary.2',
+26 silly addNameRange     '10.0.0-canary.3',
+26 silly addNameRange     '10.0.0-canary.4',
+26 silly addNameRange     '10.0.0-canary.5',
+26 silly addNameRange     '10.0.0-canary.6',
+26 silly addNameRange     '10.0.0-canary.7',
+26 silly addNameRange     '9.1.0',
+26 silly addNameRange     '10.0.0-canary.8',
+26 silly addNameRange     '9.2.0',
+26 silly addNameRange     '10.0.0-canary.9',
+26 silly addNameRange     '9.2.1',
+26 silly addNameRange     '10.0.0-canary.10',
+26 silly addNameRange     '9.2.2',
+26 silly addNameRange     '9.2.3',
+26 silly addNameRange     '10.0.0-canary.11',
+26 silly addNameRange     '9.2.4',
+26 silly addNameRange     '10.0.0-canary.12',
+26 silly addNameRange     '10.0.0-canary.13',
+26 silly addNameRange     '9.2.5',
+26 silly addNameRange     '10.0.0-canary.14',
+26 silly addNameRange     '9.2.6',
+26 silly addNameRange     '10.0.0-canary.15',
+26 silly addNameRange     '9.2.7',
+26 silly addNameRange     '10.0.0-canary.16',
+26 silly addNameRange     '10.0.0-canary.17',
+26 silly addNameRange     '9.2.8',
+26 silly addNameRange     '10.0.0-canary.18',
+26 silly addNameRange     '9.2.9',
+26 silly addNameRange     '10.0.0-canary.19',
+26 silly addNameRange     '9.2.10',
+26 silly addNameRange     '10.0.0-canary.20',
+26 silly addNameRange     '10.0.0-canary.21',
+26 silly addNameRange     '9.3.0',
+26 silly addNameRange     '10.0.0-canary.22',
+26 silly addNameRange     '9.3.1',
+26 silly addNameRange     '10.0.0-canary.23',
+26 silly addNameRange     '9.3.2',
+26 silly addNameRange     '10.0.0-canary.24',
+26 silly addNameRange     '10.0.0-canary.25',
+26 silly addNameRange     '9.3.3',
+26 silly addNameRange     '10.0.0-canary.26',
+26 silly addNameRange     '10.0.0-canary.27',
+26 silly addNameRange     '10.0.0-canary.28',
+26 silly addNameRange     '10.0.0-canary.29',
+26 silly addNameRange     '10.0.0-canary.30',
+26 silly addNameRange     '10.0.0',
+26 silly addNameRange     '11.0.0-canary.1',
+26 silly addNameRange     '10.0.1',
+26 silly addNameRange     '11.0.0-canary.2',
+26 silly addNameRange     '10.0.2',
+26 silly addNameRange     '11.0.0-canary.3',
+26 silly addNameRange     '10.0.3',
+26 silly addNameRange     '11.0.0-canary.4',
+26 silly addNameRange     '11.0.0-canary.5',
+26 silly addNameRange     '11.0.0-canary.7',
+26 silly addNameRange     '11.0.0-canary.9',
+26 silly addNameRange     '11.0.0-canary.10',
+26 silly addNameRange     '11.0.0-canary.11',
+26 silly addNameRange     '11.0.0-canary.15',
+26 silly addNameRange     '11.0.0-canary.18',
+26 silly addNameRange     '11.0.0-canary.19',
+26 silly addNameRange     '11.0.0-canary.20',
+26 silly addNameRange     '10.1.0',
+26 silly addNameRange     '11.0.0-canary.21',
+26 silly addNameRange     '10.1.1',
+26 silly addNameRange     '11.0.0-canary.22',
+26 silly addNameRange     '10.1.2',
+26 silly addNameRange     '10.1.3',
+26 silly addNameRange     '11.0.0-canary.24',
+26 silly addNameRange     '10.1.4',
+26 silly addNameRange     '11.0.0-canary.25',
+26 silly addNameRange     '10.1.5' ] ]
+27 verbose addNamed now@10.1.5
+28 silly addNamed semver.valid 10.1.5
+29 silly addNamed semver.validRange 10.1.5
+30 silly mapToRegistry name now
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/now
+34 verbose addRemoteTarball https://registry.npmjs.org/now/-/now-10.1.5.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/now/-/now-10.1.5.tgz',
+35 verbose addRemoteTarball   '6d5ed80723aacf101103a200f56635cf870872fb' ]
+36 info retry fetch attempt 1 at 6:38:02 PM
+37 info attempt registry request try #1 at 6:38:02 PM
+38 http fetch GET https://registry.npmjs.org/now/-/now-10.1.5.tgz
+39 http fetch 200 https://registry.npmjs.org/now/-/now-10.1.5.tgz
+40 silly fetchAndShaCheck shasum 6d5ed80723aacf101103a200f56635cf870872fb
+41 verbose addTmpTarball C:\Users\Kenny\AppData\Local\Temp\npm-1372-bb142511\registry.npmjs.org\now\-\now-10.1.5.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for now@10.1.5
+43 silly cache afterAdd now@10.1.5
+44 verbose afterAdd C:\Users\Kenny\AppData\Roaming\npm-cache\now\10.1.5\package\package.json not in flight; writing
+45 verbose afterAdd C:\Users\Kenny\AppData\Roaming\npm-cache\now\10.1.5\package\package.json written
+46 silly install resolved [ { name: 'now',
+46 silly install resolved     version: '10.1.5',
+46 silly install resolved     license: 'Apache-2.0',
+46 silly install resolved     description: 'The command-line interface for Now',
+46 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/zeit/now-cli.git' },
+46 silly install resolved     scripts:
+46 silly install resolved      { test: 'yarn test-lint',
+46 silly install resolved        'test-unit': 'ava test/unit.js --fail-fast',
+46 silly install resolved        'test-integration': 'ava test/integration.js --serial --fail-fast',
+46 silly install resolved        'test-lint': 'eslint .',
+46 silly install resolved        prepublishOnly: 'yarn build-download && cp /dev/null download/dist/now',
+46 silly install resolved        dev: 'webpack -w',
+46 silly install resolved        precommit: 'lint-staged',
+46 silly install resolved        postinstall: 'node download/install.js',
+46 silly install resolved        gzip: 'ls packed/now* | xargs gzip',
+46 silly install resolved        bundle: 'pkg dist/now.js -c package.json -o packed/now --options no-warnings',
+46 silly install resolved        pack: 'rm -rf packed && webpack && yarn bundle',
+46 silly install resolved        'build-download': 'webpack --context download --config download/webpack.config.js',
+46 silly install resolved        link: 'webpack && cd link && npm link',
+46 silly install resolved        build: 'webpack' },
+46 silly install resolved     'lint-staged': { '*.js': [Object] },
+46 silly install resolved     bin: { now: 'download/dist/now' },
+46 silly install resolved     files: [ 'download/dist', 'download/install.js' ],
+46 silly install resolved     pkg: { scripts: [Object], targets: [Object] },
+46 silly install resolved     eslintIgnore: [ 'download', 'dist', 'test/fixtures' ],
+46 silly install resolved     eslintConfig:
+46 silly install resolved      { parserOptions: [Object],
+46 silly install resolved        parser: 'babel-eslint',
+46 silly install resolved        extends: [Object],
+46 silly install resolved        plugins: [Object],
+46 silly install resolved        env: [Object],
+46 silly install resolved        rules: [Object] },
+46 silly install resolved     babel: { plugins: [Object] },
+46 silly install resolved     devDependencies:
+46 silly install resolved      { '@google/maps': '0.4.3',
+46 silly install resolved        '@zeit/check-updates': '1.1.0',
+46 silly install resolved        'alpha-sort': '2.0.1',
+46 silly install resolved        'ansi-escapes': '3.0.0',
+46 silly install resolved        'ansi-regex': '3.0.0',
+46 silly install resolved        archiver: '2.0.3',
+46 silly install resolved        'arr-flatten': '1.1.0',
+46 silly install resolved        'async-retry': '1.1.3',
+46 silly install resolved        'async-sema': '1.2.0',
+46 silly install resolved        ava: '1.0.0-beta.3',
+46 silly install resolved        'aws-sdk': '2.124.0',
+46 silly install resolved        'babel-core': '6.26.0',
+46 silly install resolved        'babel-eslint': '8.0.1',
+46 silly install resolved        'babel-loader': '7.1.2',
+46 silly install resolved        'babel-plugin-transform-async-to-generator': '6.24.1',
+46 silly install resolved        'babel-plugin-transform-flow-comments': '6.22.0',
+46 silly install resolved        'babel-plugin-transform-runtime': '6.23.0',
+46 silly install resolved        'babel-preset-env': '1.6.0',
+46 silly install resolved        bytes: '3.0.0',
+46 silly install resolved        chalk: '2.3.1',
+46 silly install resolved        'child-process-promise': '2.2.1',
+46 silly install resolved        clipboardy: '1.1.4',
+46 silly install resolved        'convert-stream': '1.0.2',
+46 silly install resolved        'copy-webpack-plugin': '4.0.1',
+46 silly install resolved        'credit-card': '3.0.1',
+46 silly install resolved        'cross-spawn': '5.1.0',
+46 silly install resolved        dateformat: '3.0.2',
+46 silly install resolved        death: '1.1.0',
+46 silly install resolved        debug: '3.1.0',
+46 silly install resolved        'deployment-type': '1.0.1',
+46 silly install resolved        'docker-file-parser': '1.0.2',
+46 silly install resolved        dotenv: '4.0.0',
+46 silly install resolved        download: '6.2.5',
+46 silly install resolved        'email-prompt': '0.3.2',
+46 silly install resolved        'email-validator': '1.1.1',
+46 silly install resolved        epipebomb: '1.0.0',
+46 silly install resolved        eslint: '4.7.2',
+46 silly install resolved        'eslint-plugin-flowtype': '2.36.0',
+46 silly install resolved        execa: '0.9.0',
+46 silly install resolved        'fetch-h2': '0.0.12',
+46 silly install resolved        'flow-babel-webpack-plugin': '1.1.0',
+46 silly install resolved        'fs-extra': '4.0.2',
+46 silly install resolved        glob: '7.1.2',
+46 silly install resolved        ignore: '3.3.5',
+46 silly install resolved        ini: '1.3.4',
+46 silly install resolved        inquirer: '3.3.0',
+46 silly install resolved        'is-url': '1.2.2',
+46 silly install resolved        jsonlines: '0.1.1',
+46 silly install resolved        'lint-staged': '4.2.3',
+46 silly install resolved        'load-json-file': '3.0.0',
+46 silly install resolved        'lodash.range': '3.2.0',
+46 silly install resolved        'mkdirp-promise': '5.0.1',
+46 silly install resolved        mri: '1.1.0',
+46 silly install resolved        ms: '2.0.0',
+46 silly install resolved        'node-fetch': '1.7.3',
+46 silly install resolved        opn: '5.1.0',
+46 silly install resolved        ora: '1.3.0',
+46 silly install resolved        'pipe-streams-to-promise': '0.2.0',
+46 silly install resolved        pkg: '4.3.0',
+46 silly install resolved        pluralize: '7.0.0',
+46 silly install resolved        'pre-commit': '1.2.2',
+46 silly install resolved        prettier: '1.7.2',
+46 silly install resolved        printf: '0.2.5',
+46 silly install resolved        progress: '2.0.0',
+46 silly install resolved        psl: '1.1.20',
+46 silly install resolved        'qr-image': '3.2.0',
+46 silly install resolved        'read-pkg': '2.0.0',
+46 silly install resolved        semver: '5.5.0',
+46 silly install resolved        'shebang-loader': '0.0.1',
+46 silly install resolved        'single-line-log': '1.1.2',
+46 silly install resolved        'socket.io-client': '1.7.4',
+46 silly install resolved        'split-array': '1.0.1',
+46 silly install resolved        'strip-ansi': '4.0.0',
+46 silly install resolved        stripe: '5.1.0',
+46 silly install resolved        'supports-color': '5.2.0',
+46 silly install resolved        'tar-fs': '1.15.3',
+46 silly install resolved        'text-table': '0.2.0',
+46 silly install resolved        'then-sleep': '1.0.1',
+46 silly install resolved        through2: '2.0.3',
+46 silly install resolved        'tmp-promise': '1.0.3',
+46 silly install resolved        'uid-promise': '1.0.0',
+46 silly install resolved        webpack: '3.6.0',
+46 silly install resolved        'webpack-node-externals': '1.6.0',
+46 silly install resolved        'which-promise': '1.0.0',
+46 silly install resolved        'write-json-file': '2.2.0' },
+46 silly install resolved     gitHead: '650efbac893b62f7c6ec517e5ef3648cd8b64b7f',
+46 silly install resolved     bugs: { url: 'https://github.com/zeit/now-cli/issues' },
+46 silly install resolved     homepage: 'https://github.com/zeit/now-cli#readme',
+46 silly install resolved     _id: 'now@10.1.5',
+46 silly install resolved     _npmVersion: '5.6.0',
+46 silly install resolved     _nodeVersion: '9.7.1',
+46 silly install resolved     _npmUser: { name: 'leo', email: 'leo@zeit.co' },
+46 silly install resolved     dist:
+46 silly install resolved      { integrity: 'sha512-B4zIlSV0RAvI9lbicxZ+DZ1jor55UkKUJBhCGxUnCzKkJtYS8yOBFc/YCH+dkkRnmjKGa9sK0Sckp74o83HC6A==',
+46 silly install resolved        shasum: '6d5ed80723aacf101103a200f56635cf870872fb',
+46 silly install resolved        tarball: 'https://registry.npmjs.org/now/-/now-10.1.5.tgz',
+46 silly install resolved        fileCount: 6,
+46 silly install resolved        unpackedSize: 676802 },
+46 silly install resolved     maintainers:
+46 silly install resolved      [ [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object],
+46 silly install resolved        [Object] ],
+46 silly install resolved     directories: {},
+46 silly install resolved     _npmOperationalInternal:
+46 silly install resolved      { host: 's3://npm-registry-packages',
+46 silly install resolved        tmp: 'tmp/now_10.1.5_1520547767120_0.5514493127290685' },
+46 silly install resolved     _shasum: '6d5ed80723aacf101103a200f56635cf870872fb',
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/now/-/now-10.1.5.tgz',
+46 silly install resolved     _from: 'now@*' } ]
+47 info install now@10.1.5 into C:\Users\Kenny\AppData\Roaming\npm
+48 info installOne now@10.1.5
+49 verbose installOne of now to C:\Users\Kenny\AppData\Roaming\npm not in flight; installing
+50 verbose lock using C:\Users\Kenny\AppData\Roaming\npm-cache\_locks\now-0e0fcf0c68ca313e.lock for C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+51 silly install write writing now 10.1.5 to C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+52 silly cache addNamed cb now@10.1.5
+53 verbose unbuild node_modules\now
+54 silly gentlyRm C:\Users\Kenny\AppData\Roaming\npm\node_modules\now is being purged from base C:\Users\Kenny\AppData\Roaming\npm
+55 verbose gentlyRm don't care about contents; nuking C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+56 verbose tar unpack C:\Users\Kenny\AppData\Roaming\npm-cache\now\10.1.5\package.tgz
+57 verbose tar unpacking to C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+58 silly gentlyRm C:\Users\Kenny\AppData\Roaming\npm\node_modules\now is being purged
+59 verbose gentlyRm don't care about contents; nuking C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+60 silly gunzTarPerm modes [ '777', '666' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+63 silly gunzTarPerm extractEntry license.md
+64 silly gunzTarPerm modified mode [ 'license.md', 420, 438 ]
+65 silly gunzTarPerm extractEntry readme.md
+66 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+67 silly gunzTarPerm extractEntry download/dist/download.js
+68 silly gunzTarPerm modified mode [ 'download/dist/download.js', 420, 438 ]
+69 silly gunzTarPerm extractEntry download/dist/now
+70 silly gunzTarPerm modified mode [ 'download/dist/now', 420, 438 ]
+71 silly gunzTarPerm extractEntry download/install.js
+72 silly gunzTarPerm modified mode [ 'download/install.js', 420, 438 ]
+73 info preinstall now@10.1.5
+74 silly install resolved []
+75 verbose about to build C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+76 info build C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+77 verbose linkStuff [ true,
+77 verbose linkStuff   'C:\\Users\\Kenny\\AppData\\Roaming\\npm\\node_modules',
+77 verbose linkStuff   true,
+77 verbose linkStuff   'C:\\Users\\Kenny\\AppData\\Roaming\\npm\\node_modules' ]
+78 info linkStuff now@10.1.5
+79 verbose linkBins now@10.1.5
+80 verbose link bins [ { now: 'download/dist/now' },
+80 verbose link bins   'C:\\Users\\Kenny\\AppData\\Roaming\\npm',
+80 verbose link bins   true ]
+81 verbose linkMans now@10.1.5
+82 verbose rebuildBundles now@10.1.5
+83 info install now@10.1.5
+84 info postinstall now@10.1.5
+85 verbose unsafe-perm in lifecycle true
+86 info now@10.1.5 Failed to exec postinstall script
+87 verbose unlock done using C:\Users\Kenny\AppData\Roaming\npm-cache\_locks\now-0e0fcf0c68ca313e.lock for C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+88 verbose stack Error: now@10.1.5 postinstall: `node download/install.js`
+88 verbose stack Exit status 1
+88 verbose stack     at EventEmitter.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+88 verbose stack     at EventEmitter.emit (events.js:110:17)
+88 verbose stack     at ChildProcess.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+88 verbose stack     at ChildProcess.emit (events.js:110:17)
+88 verbose stack     at maybeClose (child_process.js:1015:16)
+88 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+89 verbose pkgid now@10.1.5
+90 verbose cwd C:\Programming\Python\telegram-bot-001
+91 error Windows_NT 6.3.9600
+92 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "now"
+93 error node v0.12.2
+94 error npm  v2.7.4
+95 error code ELIFECYCLE
+96 error now@10.1.5 postinstall: `node download/install.js`
+96 error Exit status 1
+97 error Failed at the now@10.1.5 postinstall script 'node download/install.js'.
+97 error This is most likely a problem with the now package,
+97 error not with npm itself.
+97 error Tell the author that this fails on your system:
+97 error     node download/install.js
+97 error You can get their info via:
+97 error     npm owner ls now
+97 error There is likely additional logging output above.
+98 verbose exit [ 1, true ]
+99 verbose unbuild node_modules\now
+100 info preuninstall now@10.1.5
+101 info uninstall now@10.1.5
+102 verbose unbuild rmStuff now@10.1.5 from C:\Users\Kenny\AppData\Roaming\npm\node_modules
+103 silly gentlyRm C:\Users\Kenny\AppData\Roaming\npm\now.cmd is being gently removed
+104 silly gentlyRm verifying C:\Users\Kenny\AppData\Roaming\npm is an npm working directory
+105 silly gentlyRm containing path C:\Users\Kenny\AppData\Roaming\npm is under npm's control, in C:\Users\Kenny\AppData\Roaming\npm
+106 silly gentlyRm deletion target C:\Users\Kenny\AppData\Roaming\npm\now.cmd is under C:\Users\Kenny\AppData\Roaming\npm
+107 verbose gentlyRm vacuuming from C:\Users\Kenny\AppData\Roaming\npm\now.cmd up to C:\Users\Kenny\AppData\Roaming\npm
+108 silly vacuum-fs removing C:\Users\Kenny\AppData\Roaming\npm\now.cmd
+109 silly vacuum-fs finished vacuuming up to C:\Users\Kenny\AppData\Roaming\npm
+110 silly gentlyRm C:\Users\Kenny\AppData\Roaming\npm\now is being gently removed
+111 silly gentlyRm verifying C:\Users\Kenny\AppData\Roaming\npm is an npm working directory
+112 silly gentlyRm containing path C:\Users\Kenny\AppData\Roaming\npm is under npm's control, in C:\Users\Kenny\AppData\Roaming\npm
+113 silly gentlyRm deletion target C:\Users\Kenny\AppData\Roaming\npm\now is under C:\Users\Kenny\AppData\Roaming\npm
+114 verbose gentlyRm vacuuming from C:\Users\Kenny\AppData\Roaming\npm\now up to C:\Users\Kenny\AppData\Roaming\npm
+115 silly vacuum-fs removing C:\Users\Kenny\AppData\Roaming\npm\now
+116 silly vacuum-fs finished vacuuming up to C:\Users\Kenny\AppData\Roaming\npm
+117 info postuninstall now@10.1.5
+118 silly gentlyRm C:\Users\Kenny\AppData\Roaming\npm\node_modules\now is being purged from base C:\Users\Kenny\AppData\Roaming\npm
+119 verbose gentlyRm don't care about contents; nuking C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+120 silly vacuum-fs purging C:\Users\Kenny\AppData\Roaming\npm\node_modules\now
+121 silly vacuum-fs removing C:\Users\Kenny\AppData\Roaming\npm\node_modules
+122 silly vacuum-fs finished vacuuming up to C:\Users\Kenny\AppData\Roaming\npm
